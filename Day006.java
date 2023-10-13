@@ -24,8 +24,8 @@ public class Day006 {
     }
 
     public static void looping() {
+        Scanner inputScanner = new Scanner(System.in);
         while (true) {
-            Scanner inputScanner = new Scanner(System.in);
             System.out.print(
                     "1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n5. Keluar Program\nMasukkan perintah anda : ");
             int pilihan = inputScanner.nextInt();
