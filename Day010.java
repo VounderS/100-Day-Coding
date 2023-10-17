@@ -74,12 +74,10 @@ public class Day010 {
             }
             System.out.print("           ");
             for (int l = 0; l < 3; l++) {
-                if (i == 1 || i == 2) {
+                if (i == 1 || i == 2 || i == 5 || i == 6 ) {
                     break;
                 }
-                if (i == 5 || i == 6) {
-                    break;
-                }
+     
                 System.out.print("*");
             }
 
