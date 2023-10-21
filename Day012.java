@@ -6,7 +6,7 @@ public class Day012 {
             System.out.print(i + ", ");
         }
         bubbleSort(array);
-
+ 
     }
 
     public static void bubbleSort(int[] array) {
